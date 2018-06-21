@@ -19,7 +19,7 @@ class Block:
         self.color = color
 
 
-    def update(self):
+    def update(self, **kwargs):
         pass
 
     def check_collision(self):
