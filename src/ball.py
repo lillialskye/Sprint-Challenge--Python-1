@@ -22,7 +22,7 @@ class Ball:
                                         self.position.y - self.radius,
                                         self.radius*2, self.radius*2)
 
-    def update(self):
+    def update(self, **kwargs):
         if self.position.x <= 0 + self.radius: # screen width
             self.position.x = self.radius + 1
             self.velocity.x *= -1
