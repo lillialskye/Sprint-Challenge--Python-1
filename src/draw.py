@@ -27,18 +27,20 @@ def main():
     clock = pygame.time.Clock()
  
     object_list = [] # list of objects of all types in the toy
-    print('test')
+    
     debug_create_objects(object_list)
  
     while True: # TODO:  Create more elegant condition for loop
         for event in pygame.event.get():
             if event.type == pygame.QUIT: sys.exit()
-            if event.type == pygame.KEYDOWN:  #TODO:  Get working
-                print('key is down')
-                if event.key == pygame.K_SPACE:
-                    # TODO: Add behavior when buttons pressed
-                    print('spacebar')
-                    pass
+        
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_LEFT]:
+            # Do something
+            pass
+        if keys[pygame.K_RIGHT]:
+            # Do something
+            pass
 
         for object in object_list:
             object.update()
