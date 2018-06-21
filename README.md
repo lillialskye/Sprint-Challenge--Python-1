@@ -1,6 +1,6 @@
-#Sprint Challenge Python 1
+# Sprint Challenge Python 1
 
-#CRITICAL INFORMATION
+# CRITICAL INFORMATION
 Due to a bug in pygame, *Mac users* _MUST_ install pygame globally and run this program
 outside of the virtual environment:
 
@@ -12,7 +12,7 @@ Run the game with `python3 src/draw.py`
 
 *PC Users*:  A pipfile is not included with this project.  Please create a virtual environment with pipenv, install pygame, and proceed as usual.  
 
-#Overview
+# Overview
 
 https://en.wikipedia.org/wiki/Breakout_(video_game)
 
@@ -25,7 +25,7 @@ Opposite the paddle are a series of blocks.  These blocks break, or vanish, when
 
 Commonly, there are many levels with different types and patterns of blocks.
 
-#Specification
+# Specification
 
 Create a clone of Breakout with the following features:
 
@@ -41,7 +41,7 @@ You must implement the following types of blocks.  Use different colors to disti
 2.  A block that the ball _does not_ bounce off of, that vanishes when the ball touches it
 3.  A block that requires multiple hits before it vanishes, changing color with each hit.
 
-#Tips
+# Tips
 You will not need to modify the Ball Class.  Use GameBall for your game.
 
 The different types of blocks, and the paddle, can be made by creating classes that inherit from KineticBlock and override the functions in Block.
