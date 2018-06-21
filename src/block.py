@@ -17,10 +17,11 @@ class Block:
                                     width,
                                     height)
         self.color = color
+        self.touched_by_ball = False
 
 
     def update(self, **kwargs):
-        pass
+        self.touched_by_ball = False
 
     def check_collision(self):
         pass
