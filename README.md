@@ -38,8 +38,7 @@ Create a clone of Breakout with the following features:
 
 You must implement the following types of blocks.  Use different colors to distinguish types of block:
 1.  A block that the ball bounces off of, that vanishes after the ball touches it
-2.  A block that the ball _does not_ bounce off of, that vanishes when the ball touches it
-3.  A block that requires multiple hits before it vanishes, changing color with each hit.
+2.  A block that requires multiple hits before it vanishes, changing color with each hit.
 
 # Tips
 You will not need to modify the Ball Class.  Use GameBall for your game.
@@ -48,8 +47,9 @@ The different types of blocks, and the paddle, can be made by creating classes t
 
 #Stretch Goals
 1.  Add a block that cannot be destroyed.  Exclude this from calculations to determine if the game should end.
-2.  Add scoring
-3.  Add multiple lives
-4.  Add multiple levels
-4.  Add additional features, such as varieties of blocks, powerups such as multiball, and anything else you can think of!
+2.  A block that the ball _does not_ bounce off of, that vanishes when the ball touches it.  (This may require modifications to the ball)
+3.  Add scoring
+4.  Add multiple lives
+5.  Add multiple levels
+6.  Add additional features, such as varieties of blocks, powerups such as multiball, and anything else you can think of!
 
