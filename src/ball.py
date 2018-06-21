@@ -117,6 +117,7 @@ class GameBall(Ball):
         test = left + right + top + bottom
         
         if test == 1:
+            object.touched_by_ball = True
             # the ball has collided with an edge
             # TODO:  # fix sticky edges
             if left or right:
@@ -149,7 +150,7 @@ class GameBall(Ball):
             for corner in corners:
                 relative_vector = self.position - corner
                 if relative_vector.length() <= self.radius:
-                    print('corner')
+                    object.touched_by_ball = True
                     # Create a dummy object to make use of ball to ball collision, because the math is the same
                     # Give it a velocity of the same magnitude as the current ball to cause it to reflect at
                     # the same speed
