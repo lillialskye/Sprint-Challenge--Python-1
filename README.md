@@ -41,7 +41,7 @@ You must implement the following types of blocks.  Use different colors to disti
 2.  A block that requires multiple hits before it vanishes, changing color with each hit.
 
 # Tips
-You will not need to modify the Ball Class.  Use GameBall for your game.
+Use GameBall for your game.
 
 The different types of blocks, and the paddle, can be made by creating classes that inherit from KineticBlock and override the functions in Block.
 
