@@ -5,6 +5,9 @@ from pygame import Rect
 
 from block import KineticBlock
 
+#BALL_DIAMETER = 20
+
+
 class Ball:
     """
     base class for bouncing objects
